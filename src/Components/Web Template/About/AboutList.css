@@ -1,0 +1,36 @@
+.about{
+    width: 100%;
+    background-color: black;
+    padding: 6rem 0px;
+}
+
+.about .about_list{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+    color: white;
+}
+
+.about .about_list .about_img img{
+    width: 100%;
+}
+
+.innerabout h2{
+    text-align: center;
+    padding-bottom: 7px;
+    font-size: 2.8rem;
+}
+
+
+.innerabout p{
+    text-align: justify;
+}
+
+@media screen and (max-width:740px){
+    .about .about_list{
+        max-width: 90%;
+        grid-template-columns: 1fr;
+    }
+}
